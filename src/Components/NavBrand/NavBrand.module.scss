@@ -1,0 +1,15 @@
+@import "../../style/variables.scss";
+
+.brand {
+  display: flex;
+  height: 3rem;
+  align-items: center;
+  cursor: pointer;
+  &__image {
+    height: 100%;
+    margin-left: 0.25rem;
+  }
+  &__title {
+    margin: 0.5rem;
+  }
+}
