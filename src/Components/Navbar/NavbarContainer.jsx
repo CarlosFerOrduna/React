@@ -2,9 +2,9 @@ import Navbar from "./Navbar";
 
 const NavbarContainer = () => {
   return (
-    <div>
+    <header>
       <Navbar />
-    </div>
+    </header>
   );
 };
 

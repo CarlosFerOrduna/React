@@ -4,9 +4,9 @@ const ItemListContainer = () => {
   const greeting = "Hola!";
 
   return (
-    <>
+    <main>
       <ItemList greeting={greeting} />
-    </>
+    </main>
   );
 };
 

@@ -1,9 +1,9 @@
 import { FaShoppingCart } from "react-icons/fa";
-import styles from "../../style/variables.scss";
+import styles from "./CartWidgeet.module.scss";
 
 const CartWidgetPresentation = ({ count }) => {
   return (
-    <div className={styles.artwidget}>
+    <div className={styles.cartwidget}>
       <FaShoppingCart />
       <span>{count}</span>
     </div>

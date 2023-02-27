@@ -3,15 +3,11 @@ import NavbarContainer from "./Components/Navbar/NavbarContainer";
 
 function App() {
   return (
-    <div>
-      <header>
-        <NavbarContainer />
-      </header>
-      <main>
-        <ItemListContainer />
-      </main>
+    <>
+      <NavbarContainer />
+      <ItemListContainer />
       <footer></footer>
-    </div>
+    </>
   );
 }
 
