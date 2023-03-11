@@ -1,0 +1,43 @@
+@import "../../style/variables.scss";
+
+.card {
+    max-width: 345px;
+    background-color: $clr-bg-second;
+    height: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.cardMedia {
+    background-color: $clr-bg-first;
+    border-top: 0.25rem solid $clr-bg-second;
+    border-left: 0.25rem solid $clr-bg-second;
+    border-right: 0.25rem solid $clr-bg-second;
+}
+
+.cardContent {
+    background-color: $clr-bg-second;
+    color: $clr-txt-first;
+    text-shadow: 0 0 3px $clr-bg-first, 0 0 5px $clr-bg-first;
+}
+
+.cardAction {
+    background-color: $clr-bg-second;
+    :hover {
+        background-color: $clr-txt-first !important;
+        color: $clr-bg-second !important;
+        box-shadow: 0 0 3px $clr-bg-first, 0 0 2px $clr-bg-first;
+        border-radius: 0.25rem;
+        transition: background-color 0.4s, color 0.4s;
+    }
+}
+
+.cardLink {
+    text-align: center;
+    width: 100%;
+    border: 2px solid $clr-bg-second;
+}
+
+.cardButton {
+    color: $clr-txt-first !important;
+    width: 100%;
+}

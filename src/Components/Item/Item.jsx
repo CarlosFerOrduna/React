@@ -4,30 +4,25 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+import styles from "./Item.module.scss";
 import { Link } from "react-router-dom";
 
 const Item = ({ element }) => {
     return (
-        <Card
-            sx={{
-                maxWidth: 345,
-            }}
-        >
-            <CardMedia component="img" alt={element.title} height="140" image={element.img} />
-            <CardContent>
+        <Card className={styles.card}>
+            <CardMedia component="img" alt={element.title} image={element.img} className={styles.cardMedia} />
+            <CardContent className={styles.cardContent}>
                 <Typography gutterBottom variant="h5" component="div">
                     {element.title}
                 </Typography>
                 <Typography gutterBottom variant="body2" component="div">
                     {element.price}
                 </Typography>
-                <Typography variant="body2" color="text.secondary">
-                    {element.description}
-                </Typography>
+                <Typography variant="body2">{element.description}</Typography>
             </CardContent>
-            <CardActions>
-                <Link to={`/itemDetail/${element.id}`}>
-                    <Button size="small">Ver detalle</Button>
+            <CardActions className={styles.cardAction}>
+                <Link to={`/itemDetail/${element.id}`} className={styles.cardLink}>
+                    <Button className={styles.cardButton}>Ver detalle</Button>
                 </Link>
             </CardActions>
         </Card>

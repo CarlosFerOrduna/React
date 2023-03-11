@@ -8,7 +8,7 @@ const ItemListContainer = () => {
 
     const [items, setItems] = useState([]);
 
-    const itemsFiltered = products.filter((e) => e.category === categoryName);
+    const itemsFiltered = products.filter((e) => e.category === categoryName) || products;
 
     useEffect(() => {
         const itemList = new Promise((r, e) => {

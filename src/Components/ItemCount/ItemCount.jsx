@@ -5,13 +5,13 @@ import Button from "@mui/material/Button";
 const ItemCount = ({ stock, initial = 1, onAdd }) => {
     const [counter, setCounter] = useState(initial);
 
-    const sumar = () => {
+    const add = () => {
         if (counter < stock) {
             setCounter(counter + 1);
         }
     };
 
-    const restar = () => {
+    const substract = () => {
         if (counter > 1) {
             setCounter(counter - 1);
         }
@@ -21,10 +21,10 @@ const ItemCount = ({ stock, initial = 1, onAdd }) => {
         <div>
             <h2>{counter}</h2>
             <Stack spacing={2} direction="row">
-                <Button variant="outlined" onClick={sumar}>
+                <Button variant="outlined" onClick={add}>
                     Sumar
                 </Button>
-                <Button variant="outlined" onClick={restar}>
+                <Button variant="outlined" onClick={substract}>
                     Restar
                 </Button>
                 <Button variant="outlined" onClick={() => onAdd(counter)}>
