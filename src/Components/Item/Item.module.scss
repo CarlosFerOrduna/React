@@ -25,8 +25,6 @@
     :hover {
         background-color: $clr-txt-first !important;
         color: $clr-bg-second !important;
-        box-shadow: 0 0 3px $clr-bg-first, 0 0 2px $clr-bg-first;
-        border-radius: 0.25rem;
         transition: background-color 0.4s, color 0.4s;
     }
 }
@@ -34,7 +32,9 @@
 .cardLink {
     text-align: center;
     width: 100%;
-    border: 2px solid $clr-bg-second;
+    border: 2px solid $clr-bg-first;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 3px $clr-bg-first, 0 0 2px $clr-bg-first;
 }
 
 .cardButton {

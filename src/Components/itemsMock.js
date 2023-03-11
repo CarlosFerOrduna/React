@@ -87,7 +87,7 @@ export const products = [
         stock: 2,
         description: "Estas es la mejor pizza",
         category: "focaccia",
-        img: "https://res.cloudinary.com/drnrfsagl/image/upload/v1678563007/focaccia-simple_ovt4vy.jpg",
+        img: "https://res.cloudinary.com/drnrfsagl/image/upload/v1678574565/focaccia7_jajad1.png",
     },
     {
         id: 11,
@@ -96,7 +96,7 @@ export const products = [
         stock: 5,
         description: "Ultra liviana",
         category: "focaccia",
-        img: "https://res.cloudinary.com/drnrfsagl/image/upload/v1678562983/focaccia-garden-grape_ft4oyl.webp",
+        img: "https://res.cloudinary.com/drnrfsagl/image/upload/v1678574564/focaccia8_tc7acl.png",
     },
     {
         id: 12,
@@ -105,7 +105,7 @@ export const products = [
         stock: 5,
         description: "La clasica pizza para cualquier momento",
         category: "focaccia",
-        img: "https://res.cloudinary.com/drnrfsagl/image/upload/v1678562979/focaccia-de-murcie%CC%81lago-1_vpwzln.jpg",
+        img: "https://res.cloudinary.com/drnrfsagl/image/upload/v1678574564/focaccia9_pjpl6v.png",
     },
     {
         id: 13,
@@ -114,7 +114,7 @@ export const products = [
         stock: 2,
         description: "Estas es la mejor pizza",
         category: "focaccia",
-        img: "https://res.cloudinary.com/drnrfsagl/image/upload/v1678562977/focaccia-bread-art-featured4_snuhqs.jpg",
+        img: "https://res.cloudinary.com/drnrfsagl/image/upload/v1678574564/focaccia4_owa5v0.png",
     },
     {
         id: 14,
@@ -123,7 +123,7 @@ export const products = [
         stock: 5,
         description: "Ultra liviana",
         category: "focaccia",
-        img: "https://res.cloudinary.com/drnrfsagl/image/upload/v1678562973/focaccia-garden_yggo5z.webp",
+        img: "https://res.cloudinary.com/drnrfsagl/image/upload/v1678574564/focaccia2_shrwgd.png",
     },
     {
         id: 15,
@@ -132,7 +132,7 @@ export const products = [
         stock: 5,
         description: "La clasica pizza para cualquier momento",
         category: "focaccia",
-        img: "https://res.cloudinary.com/drnrfsagl/image/upload/v1678562971/focaccia-bread-art-featured2_smkkka.jpg",
+        img: "https://res.cloudinary.com/drnrfsagl/image/upload/v1678574563/focaccia6_btn4fv.png",
     },
     {
         id: 16,
@@ -141,7 +141,7 @@ export const products = [
         stock: 2,
         description: "Estas es la mejor pizza",
         category: "focaccia",
-        img: "https://res.cloudinary.com/drnrfsagl/image/upload/v1678562970/focaccia-bread-art-featured3_c8za2b.jpg",
+        img: "https://res.cloudinary.com/drnrfsagl/image/upload/v1678574560/focaccia5_qomofl.png",
     },
     {
         id: 17,
@@ -150,6 +150,6 @@ export const products = [
         stock: 5,
         description: "Ultra liviana",
         category: "focaccia",
-        img: "https://res.cloudinary.com/drnrfsagl/image/upload/v1678562970/focaccia-bread-art-featured_nvp5rl.jpg",
+        img: "https://res.cloudinary.com/drnrfsagl/image/upload/v1678574558/focaccia3_e19d6y.png",
     },
 ];
