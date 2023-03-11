@@ -1,14 +1,15 @@
 @import "../../style/variables.scss";
 
 .items {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  padding: 0 0.5rem 0 0;
-  li {
-    button {
-      color: $clr-txt-first;
-      cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 0.5rem 0 0;
+
+    li {
+        button {
+            color: $clr-txt-first;
+            cursor: pointer;
+        }
     }
-  }
 }

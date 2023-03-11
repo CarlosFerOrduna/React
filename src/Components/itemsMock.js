@@ -1,0 +1,29 @@
+export const products = [
+    {
+        id: 1,
+        title: "Pizza 1",
+        price: 1500,
+        stock: 2,
+        description: "Estas es la mejor pizza",
+        category: "pizza",
+        img: "https://res.cloudinary.com/drnrfsagl/image/upload/v1678325678/meat-chicken-mushrooms-pizza_z8ec95.png",
+    },
+    {
+        id: 2,
+        title: "Pizza 2",
+        price: 1450,
+        stock: 5,
+        description: "Ultra liviana",
+        category: "pizza",
+        img: "https://res.cloudinary.com/drnrfsagl/image/upload/v1678325678/delicious-italian-pizza-with-tomato-olives-pepperoni-mushrooms_gyg5pd.png",
+    },
+    {
+        id: 3,
+        title: "Pizza 3",
+        price: 1900,
+        stock: 5,
+        description: "La clasica pizza para cualquier momento",
+        category: "pizza",
+        img: "https://res.cloudinary.com/drnrfsagl/image/upload/v1678325678/thinly-sliced-pepperoni_l1xiy7.png",
+    },
+];

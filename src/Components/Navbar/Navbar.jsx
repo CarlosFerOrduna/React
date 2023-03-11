@@ -1,14 +1,14 @@
-import NavBrandContainer from "../NavBrand/NavBrandContainer";
-import NavItemsContainer from "../NavItems/NavItemsContainer";
+import NavBrand from "../NavBrand/NavBrand";
+import NavItems from "../NavItems/NavItems";
 import styles from "./Navbar.module.scss";
 
 const Navbar = () => {
-  return (
-    <div className={styles.navbar}>
-      <NavBrandContainer />
-      <NavItemsContainer />
-    </div>
-  );
+    return (
+        <div className={styles.navbar}>
+            <NavBrand />
+            <NavItems />
+        </div>
+    );
 };
 
 export default Navbar;

@@ -1,22 +1,21 @@
 import styles from "./NavBrand.module.scss";
-console.log(styles);
-const NavBrand = ({ title, image }) => {
-  return (
-    <button className={styles.brand}>
-      <BrandImage image={image} />
-      <BrandTitle title={title} />
-    </button>
-  );
+import { Link } from "react-router-dom";
+
+const NavBrand = () => {
+    return (
+        <Link to="/" className={styles.brand}>
+            <BrandImage />
+            <BrandTitle />
+        </Link>
+    );
 };
 
 export default NavBrand;
 
-const BrandImage = ({ image }) => {
-  return (
-    <img className={styles.brand__image} src={image.address} alt={image.alt} />
-  );
+const BrandImage = () => {
+    return <img className={styles.brand__image} src="./logo.png" alt="pizzas planet" />;
 };
 
-const BrandTitle = ({ title }) => {
-  return <h2 className={styles.brand__title}>{title}</h2>;
+const BrandTitle = () => {
+    return <h2 className={styles.brand__title}>FPizza</h2>;
 };

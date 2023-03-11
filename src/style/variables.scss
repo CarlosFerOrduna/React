@@ -18,10 +18,10 @@ $md: 48em;
 $lg: 64em;
 $xl: 75em;
 
-@mixin breackpoint($point) {
-  @if $point == md {
-    @media (min-width: $md) {
-      @content;
+@mixin break_point($point) {
+    @if $point == md {
+        @media (min-width: $md) {
+            @content;
+        }
     }
-  }
 }
