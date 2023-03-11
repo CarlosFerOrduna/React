@@ -1,11 +1,11 @@
 @import "../../style/variables.scss";
 
 .navbar {
-  display: flex;
-  border-radius: 2rem;
-  border: 0.25rem $clr-bg-second solid;
-  margin: 0.5rem;
-  position: static;
-  justify-content: space-between;
-  gap: 2rem;
+    display: flex;
+    border-radius: 2rem;
+    border: 0.25rem $clr-bg-second solid;
+    margin: 0.5rem;
+    position: static;
+    justify-content: space-between;
+    gap: 2rem;
 }
