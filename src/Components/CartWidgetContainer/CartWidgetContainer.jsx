@@ -8,7 +8,7 @@ const CartWidgetContainer = () => {
 
     return (
         <Link to="/cart">
-            <CartWidget cart={getTotalQuantity()} />
+            <CartWidget quantity={getTotalQuantity()} />
         </Link>
     );
 };

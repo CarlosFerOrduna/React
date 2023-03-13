@@ -6,6 +6,7 @@ import ItemDetailContainer from "./Components/ItemDetailContainer/ItemDetailCont
 import Cart from "./Components/Cart/Cart";
 import Form from "./Components/Form/Form";
 import CartContextProvider from "./Context/CartContext";
+import NotFound from "./Components/NotFound/NotFound";
 
 function App() {
     return (
@@ -17,7 +18,7 @@ function App() {
                     <Route path="/category/:categoryName" element={<ItemListContainer />} />
                     <Route path="/itemDetail/:id" element={<ItemDetailContainer />} />
                     <Route path="/cart" element={<Cart />} />
-                    <Route path="*" element={<h2>error 404: not found</h2>} />
+                    <Route path="*" element={<NotFound />} />
                     <Route path="/form" element={<Form />} />
                 </Routes>
             </CartContextProvider>

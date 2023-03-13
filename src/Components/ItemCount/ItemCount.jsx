@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
+import { Box, Typography } from "@mui/material";
 
 const ItemCount = ({ stock, initial = 1, onAdd }) => {
     const [counter, setCounter] = useState(initial);
@@ -18,20 +19,20 @@ const ItemCount = ({ stock, initial = 1, onAdd }) => {
     };
 
     return (
-        <div>
-            <h2>{counter}</h2>
-            <Stack spacing={2} direction="row">
-                <Button variant="outlined" onClick={add}>
+        <Box>
+            <Typography variant="h5">Cantidad: {counter}</Typography>
+            <Stack spacing={1} direction="row">
+                <Button variant="outlined" color="error" onClick={add}>
                     Sumar
                 </Button>
-                <Button variant="outlined" onClick={substract}>
+                <Button variant="outlined" color="error" onClick={substract}>
                     Restar
                 </Button>
-                <Button variant="outlined" onClick={() => onAdd(counter)}>
+                <Button variant="outlined" color="error" onClick={() => onAdd(counter)}>
                     Agregar al carrito
                 </Button>
             </Stack>
-        </div>
+        </Box>
     );
 };
 
