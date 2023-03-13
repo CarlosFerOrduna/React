@@ -2,13 +2,14 @@ import ItemList from "../ItemList/ItemList";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { products } from "../itemsMock";
+import { Box } from "@mui/material";
 
 const ItemListContainer = () => {
     const { categoryName } = useParams();
 
     const [items, setItems] = useState([]);
 
-    const itemsFiltered = products.filter((e) => e.category === categoryName) || products;
+    const itemsFiltered = products.filter((e) => e.category === categoryName);
 
     useEffect(() => {
         const itemList = new Promise((r, e) => {
@@ -25,9 +26,9 @@ const ItemListContainer = () => {
     }, [categoryName]);
 
     return (
-        <main>
+        <Box>
             <ItemList items={items} />
-        </main>
+        </Box>
     );
 };
 

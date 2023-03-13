@@ -1,12 +1,12 @@
-import { FaShoppingCart } from "react-icons/fa";
+import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
+import { Badge } from "@mui/material";
 import styles from "./CartWidget.module.scss";
 
-const CartWidgetPresentation = ({ cart }) => {
+const CartWidgetPresentation = ({ quantity }) => {
     return (
-        <div className={styles.cartwidget}>
-            <FaShoppingCart />
-            <span>{cart}</span>
-        </div>
+        <Badge badgeContent={quantity} color="error">
+            <ShoppingCartOutlinedIcon />
+        </Badge>
     );
 };
 

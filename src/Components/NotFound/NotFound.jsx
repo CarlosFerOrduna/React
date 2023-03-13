@@ -1,9 +1,10 @@
+import { Box, Typography } from "@mui/material";
+
 const NotFound = () => {
     return (
-        <div>
-            <h1>NotFound</h1>
-            <img src="" alt="" />
-        </div>
+        <Box textAlign="center">
+            <Typography variant="h2">Error 404: page not found</Typography>
+        </Box>
     );
 };
 

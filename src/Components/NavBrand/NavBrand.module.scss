@@ -4,14 +4,17 @@
     display: flex;
     height: 3rem;
     align-items: center;
+    color: $clr-txt-first;
     cursor: pointer;
 
     &__image {
         height: 100%;
+        color: $clr-txt-first;
         margin-left: 0.25rem;
     }
 
     &__title {
         margin: 0.5rem;
+        color: $clr-txt-first;
     }
 }
