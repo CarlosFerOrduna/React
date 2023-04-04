@@ -1,7 +1,6 @@
 import styles from "./NavBrand.module.scss";
 import { Link } from "react-router-dom";
 import Button from "@mui/material/Button";
-import { Typography } from "@mui/material";
 
 const NavBrand = () => {
     return (

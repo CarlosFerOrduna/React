@@ -1,0 +1,27 @@
+@import "../../style/variables.scss";
+
+.textFieldCheckout {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    label,
+    input {
+        color: $clr-bg-second;
+    }
+    button {
+        width: 100%;
+        cursor: pointer;
+        text-align: center;
+        border: 1px $clr-bg-second solid;
+        padding: 1rem;
+        color: $clr-bg-second;
+        border-radius: 1rem;
+        box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+        &:hover {
+            transition: 0.2s;
+            transform: scale(1.01);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+    }
+}

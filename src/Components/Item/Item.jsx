@@ -18,7 +18,6 @@ const Item = ({ element }) => {
                 <Typography gutterBottom variant="body2" component="div">
                     {element.price}
                 </Typography>
-                <Typography variant="body2">{element.description}</Typography>
             </CardContent>
             <CardActions className={styles.cardAction}>
                 <Link to={`/itemDetail/${element.id}`} className={styles.cardLink}>

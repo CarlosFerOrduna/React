@@ -1,8 +1,7 @@
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import { Badge } from "@mui/material";
-import styles from "./CartWidget.module.scss";
 
-const CartWidgetPresentation = ({ quantity }) => {
+const CartWidget = ({ quantity }) => {
     return (
         <Badge badgeContent={quantity} color="error">
             <ShoppingCartOutlinedIcon />
@@ -10,4 +9,4 @@ const CartWidgetPresentation = ({ quantity }) => {
     );
 };
 
-export default CartWidgetPresentation;
+export default CartWidget;

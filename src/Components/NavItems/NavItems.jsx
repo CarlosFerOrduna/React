@@ -1,7 +1,7 @@
-import CartWidgetContainer from "../CartWidgetContainer/CartWidgetContainer";
 import styles from "./NavItems.module.scss";
 import { Link } from "react-router-dom";
 import Button from "@mui/material/Button";
+import CartWidgetContainer from "../CartWidget/CartWidgetContainer";
 
 const NavItems = () => {
     return (
@@ -13,12 +13,12 @@ const NavItems = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link to="/category/pizza">
+                    <Link to="/categories/pizza">
                         <Button variant="text">Pizzas</Button>
                     </Link>
                 </li>
                 <li>
-                    <Link to="/category/focaccia">
+                    <Link to="/categories/focaccia">
                         <Button variant="text">Focaccias</Button>
                     </Link>
                 </li>
